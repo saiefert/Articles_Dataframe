@@ -19,7 +19,7 @@ class ArticlesReader():
             arquivos concatenados.
         """
         list_files = os.listdir(path_files)
-        main_dataframe = pd.DataFrame()
+        df_main = pd.DataFrame()
 
         for file in list_files:
             print(f'Arquivos listado no Dataframe: {file}')
@@ -27,9 +27,9 @@ class ArticlesReader():
                 bib_database = bibtexparser.load(bibtex_file)
 
                 df = pd.DataFrame(bib_database.entries)
-                main_dataframe = pd.concat([main_dataframe, df])
+                df_main = pd.concat([df_main, df])
 
-        return main_dataframe
+        return df_main
 
     def cleaner_columns(df: pd.DataFrame, columns_list: list) -> pd.DataFrame:
         """Faz a limpeza das colunas do DataFrame de acordo
