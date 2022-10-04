@@ -31,6 +31,9 @@ class ArticlesReader():
 
         return df_main
 
+
+
+
     def cleaner_columns(df: pd.DataFrame, columns_list: list) -> pd.DataFrame:
         """Faz a limpeza das colunas do DataFrame de acordo
         com a lista que se deseja.
