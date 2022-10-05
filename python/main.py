@@ -23,7 +23,7 @@ class ArticlesReader():
 
         for file in list_files:
             print(f'Arquivos listado no Dataframe: {file}')
-            with open(f"{path_files}/{file}") as bibtex_file:
+            with open(f"{path_files}/{file}",  encoding='utf8') as bibtex_file:
                 bib_database = bibtexparser.load(bibtex_file)
 
                 df = pd.DataFrame(bib_database.entries)
