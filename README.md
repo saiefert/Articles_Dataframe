@@ -8,5 +8,3 @@ Libs necessárias:
 - Pandas
 
 ### Arquitetura
-
-![alt text](https://github.com/LucasLazzarini/Articles_Dataframe/blob/aula_1/arquitetura.png?raw=true)
