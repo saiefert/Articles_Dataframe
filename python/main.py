@@ -18,16 +18,21 @@ class ArticlesReader():
             pd.DataFrame: Retorna o DataFrame de todos os
             arquivos concatenados.
         """
-        list_files = os.listdir(path_files)
+        list_pathes = os.listdir(path_files)
         df_main = pd.DataFrame()
 
-        for file in list_files:
-            print(f'Arquivos listado no Dataframe: {file}')
-            with open(f"{path_files}/{file}",  encoding='utf8') as bibtex_file:
-                bib_database = bibtexparser.load(bibtex_file)
+        for path in list_pathes:
+            list_files = os.listdir(f"{path_files}/{path}")
+            for file in list_files:
+                print(f'Arquivos listado no Dataframe: {file}')
+                with open(
+                        f"{path_files}/{path}/{file}",
+                        encoding='utf8'
+                        ) as bibtex_file:
+                    bib_database = bibtexparser.load(bibtex_file)
 
-                df = pd.DataFrame(bib_database.entries)
-                df_main = pd.concat([df_main, df])
+                    df = pd.DataFrame(bib_database.entries)
+                    df_main = pd.concat([df_main, df])
 
         return df_main
 
@@ -58,21 +63,6 @@ class ArticlesReader():
                 print(f"Dataframe com coluna retirada: {column}")
 
         return df
-
-    def concat_dfs(df_1: pd.DataFrame, df_2: pd.DataFrame) -> pd.DataFrame:
-        """Concatena os dataframes.
-
-        Args:
-            df_1 (pd.DataFrame): que será concatenado
-            df_2 (pd.DataFrame): que será concatenado
-
-        Returns:
-            pd.DataFrame: dataframe já concatenado
-        """
-        df_concat = pd.DataFrame()
-        df_concat = pd.concat([df_1, df_2])
-
-        return df_concat
 
     def save_df(df: pd.DataFrame, file_type: str) -> None:
         """Salva o DataFrame no formato solicitado.
@@ -138,12 +128,7 @@ if __name__ == '__main__':
 
     task = ArticlesReader
 
-    df_IEEE = task.read_files(path_files='../dados/IEEE')
-    df_ACM = task.read_files(path_files='../dados/ACM')
-    df_SDC = task.read_files(path_files='../dados/SDC')
-
-    df_main = task.concat_dfs(df_1=df_SDC, df_2=df_IEEE)
-    df_main = task.concat_dfs(df_1=df_main, df_2=df_ACM)
+    df_main = task.read_files(path_files='../dados')
 
     df_clean = task.cleaner_columns(
         df=df_main,
