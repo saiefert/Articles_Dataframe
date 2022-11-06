@@ -1,2 +1,31 @@
-chosen_columns: ['author', 'title', 'abstract', 'year', 'type_publication', 'doi']
-file_saved_format: json
+name_file_saved_bibtex: results_bibtex
+file_saved_format_bibtex: yaml
+
+name_file_saved_rank: results_rank
+file_saved_format_rank: yaml
+
+columns_filters:
+   #column 1
+ - column: "title"
+   filter: "ca-a cancer journal for clinicians"
+   #column 2
+ - column: "keywords"
+   filter: 
+   #column 3
+ - column: "abstract"
+   filter: 
+   #column 4
+ - column: "year"
+   filter: 
+   #column 5
+ - column: "type_publication"
+   filter: 
+   #column 6
+ - column: "doi"
+   filter: 
+   #column 7
+ - column: "jcr_value"
+   filter: "4"
+   #column 8
+ - column: "scimago_value"
+   filter: "3"

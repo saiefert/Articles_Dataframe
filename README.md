@@ -6,7 +6,3 @@ Libs necessárias:
 - PyYAML
 - Bibtexparser
 - Pandas
-
-### Arquitetura
-
-![arquitetura](https://github.com/LucasLazzarini/Articles_Dataframe/blob/aula_1/arquitetura.png?raw=true)
