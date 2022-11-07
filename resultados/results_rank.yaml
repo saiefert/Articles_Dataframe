@@ -1,43 +1,702 @@
-- {index: 0, scimago_value: 1, sourceid: 28773, title: ca-a cancer journal
-        for clinicians, type: journal, issn: '15424863, 00079235', sjr: '62,937',
-    sjr_best_quartile: Q1, h_index: 168, total_docs__2020: 47, total_docs__3years: 119,
-    total_refs_: 3452, total_cites_3years: 15499, citable_docs__3years: 80,
-    cites__doc__2years: '126,34', ref___doc_: '73,45', country: United States,
-    region: Northern America, publisher: Wiley-Blackwell, coverage: 1950-2020,
-    categories: Hematology (Q1); Oncology (Q1), jcr_value: 1, total_cites: '55,868',
-    journal_impact_factor: '508.702', eigenfactor_score: 0.10514}
-- {index: 2, scimago_value: 3, sourceid: 20315, title: nature reviews molecular
-        cell biology, type: journal, issn: '14710072, 14710080', sjr: '37,461',
-    sjr_best_quartile: Q1, h_index: 431, total_docs__2020: 115, total_docs__3years: 338,
-    total_refs_: 8439, total_cites_3years: 10844, citable_docs__3years: 167,
-    cites__doc__2years: '32,83', ref___doc_: '73,38', country: United Kingdom,
-    region: Western Europe, publisher: Nature Publishing Group, coverage: 2000-2020,
-    categories: Cell Biology (Q1); Molecular Biology (Q1), jcr_value: 2, total_cites: '58,477',
-    journal_impact_factor: '94.444', eigenfactor_score: 0.07548}
-- {index: 73, scimago_value: 78, sourceid: 20425, title: nature reviews drug
-        discovery, type: journal, issn: '14741784, 14741776', sjr: '9,921',
-    sjr_best_quartile: Q1, h_index: 328, total_docs__2020: 247, total_docs__3years: 676,
-    total_refs_: 7946, total_cites_3years: 8550, citable_docs__3years: 314,
-    cites__doc__2years: '12,38', ref___doc_: '32,17', country: United Kingdom,
-    region: Western Europe, publisher: Nature Publishing Group, coverage: 2002-2020,
-    categories: Drug Discovery (Q1); Medicine (miscellaneous) (Q1); Pharmacology
-        (Q1), jcr_value: 4, total_cites: '41,989', journal_impact_factor: '84.694',
-    eigenfactor_score: 0.04822}
-- {index: 4, scimago_value: 5, sourceid: 21100812243, title: nature reviews
-        materials, type: journal, issn: '20588437', sjr: '32,011', sjr_best_quartile: Q1,
-    h_index: 108, total_docs__2020: 92, total_docs__3years: 264, total_refs_: 10632,
-    total_cites_3years: 11188, citable_docs__3years: 138, cites__doc__2years: '32,15',
-    ref___doc_: '115,57', country: United Kingdom, region: Western Europe,
-    publisher: Nature Publishing Group, coverage: 2016-2020, categories: 'Biomaterials
-        (Q1); Electronic, Optical and Magnetic Materials (Q1); Energy (miscellaneous)
-        (Q1); Materials Chemistry (Q1); Surfaces, Coatings and Films (Q1)',
-    jcr_value: 7, total_cites: '19,887', journal_impact_factor: '66.308',
-    eigenfactor_score: 0.05677}
-- {index: 5, scimago_value: 7, sourceid: 18434, title: cell, type: journal,
-    issn: '00928674, 10974172', sjr: '26,304', sjr_best_quartile: Q1, h_index: 776,
-    total_docs__2020: 572, total_docs__3years: 1690, total_refs_: 35345, total_cites_3years: 52644,
-    citable_docs__3years: 1563, cites__doc__2years: '28,45', ref___doc_: '61,79',
-    country: United States, region: Northern America, publisher: Cell Press,
-    coverage: 1974-2020, categories: 'Biochemistry, Genetics and Molecular
-        Biology (miscellaneous) (Q1)', jcr_value: 33, total_cites: '320,407',
-    journal_impact_factor: '41.582', eigenfactor_score: 0.52696}
+- {index: 1486, scimago_value: 1603.0, sourceid: 19532.0, title_csv: accident
+        analysis and prevention, type: journal, sjr: '1,816', sjr_best_quartile: Q1,
+    h_index: 152.0, total_docs__2020: 385.0, total_docs__3years: 1041.0, total_refs_: 20484.0,
+    total_cites_3years: 5984.0, citable_docs__3years: 1034.0, cites__doc__2years: '5,55',
+    ref___doc_: '53,21', country: United Kingdom, region: Western Europe,
+    publisher_x: Elsevier Ltd., coverage: 1969-2020, categories: 'Human Factors
+        and Ergonomics (Q1); Law (Q1); Public Health, Environmental and Occupational
+        Health (Q1); Safety, Risk, Reliability and Quality (Q1)', jcr_value: 2008.0,
+    total_cites: '25,323', journal_impact_factor: '4.993', eigenfactor_score: 0.0204,
+    issn_0: '18792057', issn_1: '00014575', issn_2: '18792057', keywords: 'Safety,
+        Road, Transport, Digital technology, Information', numpages: .nan,
+    pages: '106543', series: .nan, location: .nan, abstract: "Each year, 1.35\
+        \ million people are killed on the world\u2019s roads and another\
+        \ 20\u201350 million are seriously injured. Morbidity or serious injury\
+        \ from road traffic collisions is estimated to increase to 265 million\
+        \ people between 2015 and 2030. Current road safety management systems\
+        \ rely heavily on manual data collection, visual inspection and subjective\
+        \ expert judgment for their effectiveness, which is costly, time-consuming,\
+        \ and sometimes ineffective due to under-reporting and the poor quality\
+        \ of the data. A range of innovations offers the potential to provide\
+        \ more comprehensive and effective data collection and analysis to\
+        \ improve road safety. However, there has been no systematic analysis\
+        \ of this evidence base. To this end, this paper provides a systematic\
+        \ review of the state of the art. It identifies that digital technologies\
+        \ - Artificial Intelligence (AI), Machine-Learning, Image-Processing,\
+        \ Internet-of-Things (IoT), Smartphone applications, Geographic Information\
+        \ System (GIS), Global Positioning System (GPS), Drones, Social Media,\
+        \ Virtual-reality, Simulator, Radar, Sensor, Big Data \u2013 provide\
+        \ useful means for identifying and providing information on road safety\
+        \ factors including road user behaviour, road characteristics and\
+        \ operational environment. Moreover, the results show that digital\
+        \ technologies such as AI, Image processing and IoT have been widely\
+        \ applied to enhance road safety, due to their ability to automatically\
+        \ capture and analyse data while preventing the possibility of human\
+        \ error. However, a key gap in the literature remains their effectiveness\
+        \ in real-world environments. This limits their potential to be utilised\
+        \ by policymakers and practitioners.", doi: 'https://doi.org/10.1016/j.aap.2021.106543',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0001457521005741',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2022', author: 'Mehran
+        {Eskandari Torbaghan} and Manu Sasidharan and Louise Reardon and Leila
+        C.W. Muchanga-Hvelplund', title_bib: understanding the potential of
+        emerging digital technologies for improving road safety, type_publication: article,
+    id: ESKANDARITORBAGHAN2022106543, number: .nan, volume: '166', journal: Accident
+        Analysis & Prevention, booktitle: .nan, issn: '00014575', note: .nan,
+    editor: .nan, edition: .nan}
+- {index: 711, scimago_value: 769.0, sourceid: 13266.0, title_csv: american
+        journal of ophthalmology, type: journal, sjr: '2,704', sjr_best_quartile: Q1,
+    h_index: 186.0, total_docs__2020: 428.0, total_docs__3years: 1146.0, total_refs_: 11979.0,
+    total_cites_3years: 4453.0, citable_docs__3years: 848.0, cites__doc__2years: '3,73',
+    ref___doc_: '27,99', country: United States, region: Northern America,
+    publisher_x: Elsevier USA, coverage: 1918-2020, categories: Ophthalmology
+        (Q1), jcr_value: 1779.0, total_cites: '32,566', journal_impact_factor: '5.258',
+    eigenfactor_score: 0.0263, issn_0: 00029394, issn_1: '18791891', issn_2: 00029394,
+    keywords: .nan, numpages: .nan, pages: 1091-1103.e3, series: .nan, location: .nan,
+    abstract: "Purpose\nTo characterize the role of Big Data in evaluating\
+        \ quality of care in ophthalmology, to highlight opportunities for\
+        \ studying quality improvement using data available in the American\
+        \ Academy of Ophthalmology Intelligent Research in Sight (IRIS) Registry,\
+        \ and to show how Big Data informs us about rare events such as endophthalmitis\
+        \ after cataract surgery.\nDesign\nReview of published studies, analysis\
+        \ of public-use Medicare claims files from 2010 to 2013, and analysis\
+        \ of IRIS Registry from 2013 to 2014.\nMethods\nStatistical analysis\
+        \ of observational data.\nResults\nThe overall rate of endophthalmitis\
+        \ after cataract surgery was 0.14% in 216 703 individuals in the Medicare\
+        \ database. In the IRIS Registry the endophthalmitis rate after cataract\
+        \ surgery was 0.08% among 511 182 individuals. Endophthalmitis rates\
+        \ tended to be higher in eyes with combined cataract surgery and anterior\
+        \ vitrectomy (P\_= .051), although only 0.08% of eyes had this combined\
+        \ procedure. Visual acuity (VA) in the IRIS Registry in eyes with\
+        \ and without postoperative endophthalmitis measured 1\u20137\_days\
+        \ postoperatively were logMAR 0.58 (standard deviation [SD]: 0.84)\
+        \ (approximately Snellen acuity of 20/80) and logMAR 0.31 (SD: 0.34)\
+        \ (approximately Snellen acuity of 20/40), respectively. In 33 547\
+        \ eyes with postoperative VA after cataract surgery, 18.3% had 1-month-postoperative\
+        \ VA worse than 20/40.\nConclusions\nBig Data drawing on Medicare\
+        \ claims and IRIS Registry records can help identify additional areas\
+        \ for quality improvement, such as in the 18.3% of eyes in the IRIS\
+        \ Registry having 1-month-postoperative VA worse than 20/40. The ability\
+        \ to track patient outcomes in Big Data sets provides opportunities\
+        \ for further research on rare complications such as postoperative\
+        \ endophthalmitis and outcomes from uncommon procedures such as cataract\
+        \ surgery combined with anterior vitrectomy. But privacy and data-security\
+        \ concerns associated with Big Data should not be taken lightly.",
+    doi: 'https://doi.org/10.1016/j.ajo.2015.09.028', url: 'https://www.sciencedirect.com/science/article/pii/S000293941500598X',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2015', author: Anne
+        Louise Coleman, title_bib: 'how big data informs us about cataract
+        surgery: the lxxii edward jackson memorial lecture', type_publication: article,
+    id: COLEMAN20151091, number: '6', volume: '160', journal: American Journal
+        of Ophthalmology, booktitle: .nan, issn: 00029394, note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 283, scimago_value: 326.0, sourceid: 17600155011.0, title_csv: molecular
+        plant, type: journal, sjr: '4,588', sjr_best_quartile: Q1, h_index: 115.0,
+    total_docs__2020: 153.0, total_docs__3years: 474.0, total_refs_: 8872.0,
+    total_cites_3years: 4792.0, citable_docs__3years: 380.0, cites__doc__2years: '9,60',
+    ref___doc_: '57,99', country: United States, region: Northern America,
+    publisher_x: Cell Press, coverage: 2008-2020, categories: Molecular Biology
+        (Q1); Plant Science (Q1), jcr_value: 276.0, total_cites: '15,778',
+    journal_impact_factor: '13.164', eigenfactor_score: 0.02686, issn_0: '16742052',
+    issn_1: '17529867', issn_2: '16742052', keywords: 'smart breeding, genomic
+        selection, integrated genomic-enviromic selection, spatiotemporal
+        omics, crop design, machine and deep learning, big data, artificial
+        intelligence', numpages: .nan, pages: .nan, series: .nan, location: .nan,
+    abstract: 'The first paradigm of plant breeding involves direct selection
+        based phenotypic observation, followed by predictive breeding using
+        statistical models constructed for quantitative traits based on genetic
+        experimental design and more recently by incorporating molecular marker
+        genotypes. However, plant performance or phenotype (P) is determined
+        by the combining effects of genotype (G), envirotype (E) and genotype
+        by environment interaction (GEI). Phenotypes can be predicted more
+        precisely by training a model using data collected from multiple sources,
+        including spatiotemporal omics (genomics, phenomics and enviromics
+        across time and space). Integration of 3D information profiles (G-P-E),
+        each with multidimensionality, provides predictive breeding with both
+        tremendous opportunities and great challenges. Here, we first review
+        innovative technologies for predictive breeding. We then evaluate
+        multidimensional information profiles that can be integrated with
+        a predictive breeding strategy, particularly envirotypic data, which
+        have largely been neglected in data collection and nearly untouched
+        in model construction. We propose a smart breeding scheme, integrated
+        genomic-enviromic prediction (iGEP), as an extension of genomic prediction,
+        using integrated multiomics information, big data technology and artificial
+        intelligence (mainly focus on machine and deep learning). How to implement
+        iGEP was discussed, including spatiotemporal models, environmental
+        indices, factorial and spatiotemporal structure of plant breeding
+        data, and cross-species prediction. A strategy is then proposed for
+        prediction-based crop redesign at both the macro (individual, population
+        and species) and micro (gene, metabolism and network) scales. Finally,
+        we provide perspectives on translating the smart breeding into genetic
+        gain through integrative breeding platforms and open-source breeding
+        initiatives. We call for coordinated efforts in smart breeding through
+        iGEP, institutional partnerships, and innovative technological support.',
+    doi: 'https://doi.org/10.1016/j.molp.2022.09.001', url: 'https://www.sciencedirect.com/science/article/pii/S1674205222002957',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2022', author: Yunbi
+        Xu and Xingping Zhang and Huihui Li and Hongjian Zheng and Jianan
+        Zhang and Michael S. Olsen and Rajeev K. Varshney and Boddupalli M.
+        Prasanna and Qian Qian, title_bib: 'smart breeding driven by big data,
+        artificial intelligence and integrated genomic-enviromic prediction',
+    type_publication: article, id: XU2022, number: .nan, volume: .nan, journal: Molecular
+        Plant, booktitle: .nan, issn: '16742052', note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 668, scimago_value: 736.0, sourceid: 15631.0, title_csv: international
+        journal of information management, type: journal, sjr: '2,770', sjr_best_quartile: Q1,
+    h_index: 114.0, total_docs__2020: 224.0, total_docs__3years: 382.0, total_refs_: 20318.0,
+    total_cites_3years: 5853.0, citable_docs__3years: 373.0, cites__doc__2years: '16,16',
+    ref___doc_: '90,71', country: United Kingdom, region: Western Europe,
+    publisher_x: Elsevier Ltd., coverage: '1970, 1986-2021', categories: Artificial
+        Intelligence (Q1); Computer Networks and Communications (Q1); Information
+        Systems (Q1); Information Systems and Management (Q1); Library and
+        Information Sciences (Q1); Management Information Systems (Q1); Marketing
+        (Q1), jcr_value: 248.0, total_cites: '12,245', journal_impact_factor: '14.098',
+    eigenfactor_score: 0.01167, issn_0: 02684012, issn_1: 02684012, issn_2: 02684012,
+    keywords: 'Agile methodologies, Business intelligence (BI), Analytics
+        and big data, Lifecycle for BI and Big Data', numpages: .nan, pages: 700-710,
+    series: .nan, location: .nan, abstract: 'Agile methodologies were introduced
+        in 2001. Since this time, practitioners have applied Agile methodologies
+        to many delivery disciplines. This article explores the application
+        of Agile methodologies and principles to business intelligence delivery
+        and how Agile has changed with the evolution of business intelligence.
+        Business intelligence has evolved because the amount of data generated
+        through the internet and smart devices has grown exponentially altering
+        how organizations and individuals use information. The practice of
+        business intelligence delivery with an Agile methodology has matured;
+        however, business intelligence has evolved altering the use of Agile
+        principles and practices. The Big Data phenomenon, the volume, variety,
+        and velocity of data, has impacted business intelligence and the use
+        of information. New trends such as fast analytics and data science
+        have emerged as part of business intelligence. This paper addresses
+        how Agile principles and practices have evolved with business intelligence,
+        as well as its challenges and future directions.', doi: 'https://doi.org/10.1016/j.ijinfomgt.2016.04.013',
+    url: 'https://www.sciencedirect.com/science/article/pii/S026840121630233X',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2016', author: Deanne
+        Larson and Victor Chang, title_bib: 'a review and future direction
+        of agile, business intelligence, analytics and data science', type_publication: article,
+    id: LARSON2016700, number: '5', volume: '36', journal: International Journal
+        of Information Management, booktitle: .nan, issn: 02684012, note: .nan,
+    editor: .nan, edition: .nan}
+- {index: 785, scimago_value: 852.0, sourceid: 21858.0, title_csv: british
+        journal of anaesthesia, type: journal, sjr: '2,589', sjr_best_quartile: Q1,
+    h_index: 181.0, total_docs__2020: 486.0, total_docs__3years: 1260.0, total_refs_: 12638.0,
+    total_cites_3years: 5321.0, citable_docs__3years: 684.0, cites__doc__2years: '4,33',
+    ref___doc_: '26,00', country: United Kingdom, region: Western Europe,
+    publisher_x: Elsevier Ltd., coverage: 1923-2020, categories: Anesthesiology
+        and Pain Medicine (Q1), jcr_value: 551.0, total_cites: '27,510', journal_impact_factor: '9.166',
+    eigenfactor_score: 0.02901, issn_0: 00070912, issn_1: '14716771', issn_2: 00070912,
+    keywords: 'big data, enhanced recovery, epidemiology, orthopedic surgery,
+        postoperative outcome, study design', numpages: .nan, pages: 510-512,
+    series: .nan, location: .nan, abstract: .nan, doi: 'https://doi.org/10.1016/j.bja.2020.01.012',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0007091220300593',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2020', author: Daniel
+        I. McIsaac, title_bib: 'real-world evaluation of enhanced recovery
+        after surgery: big data under the microscope', type_publication: article,
+    id: MCISAAC2020510, number: '5', volume: '124', journal: British Journal
+        of Anaesthesia, booktitle: .nan, issn: 00070912, note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 937, scimago_value: 1044.0, sourceid: 14966.0, title_csv: journal
+        of manufacturing systems, type: journal, sjr: '2,310', sjr_best_quartile: Q1,
+    h_index: 70.0, total_docs__2020: 155.0, total_docs__3years: 294.0, total_refs_: 8906.0,
+    total_cites_3years: 2949.0, citable_docs__3years: 288.0, cites__doc__2years: '10,88',
+    ref___doc_: '57,46', country: Netherlands, region: Western Europe, publisher_x: Elsevier,
+    coverage: 1982-2020, categories: Control and Systems Engineering (Q1);
+        Hardware and Architecture (Q1); Industrial and Manufacturing Engineering
+        (Q1); Software (Q1), jcr_value: 625.0, total_cites: '5,413', journal_impact_factor: '8.633',
+    eigenfactor_score: 0.00561, issn_0: 02786125, issn_1: 02786125, issn_2: 02786125,
+    keywords: 'Industrial big data, Mechanical performances prediction, Lower
+        upper bound estimation, Broad learning system, Hot-rolling', numpages: .nan,
+    pages: 104-114, series: .nan, location: .nan, abstract: 'Industrial big
+        data technology has become one of the important driving forces to
+        intelligent manufacturing in the steel industry. In this study, the
+        characteristics of data in steel production are analyzed and an industrial
+        big data platform for steeling process is developed to extract the
+        quality-related parameters. A data-driven approach to construct prediction
+        intervals (PIs) of mechanical performances for hot-rolling strips
+        is proposed to represent the uncertainty and reliability of the prediction
+        results. The proposed method employs a new manifold visualization
+        method, SLISEMAP, to reduce the feature dimensions with interpretability,
+        utilizes lower upper bound estimation (LUBE) method to obtain the
+        PIs, in which the broad learning system (BLS) is used as the basic
+        training network model and the artificial bee colony (ABC) algorithm
+        is applied to optimize the weighting parameters of BLS under the LUBE
+        framework. A hot-rolling steel coil dataset consisting of 39 variables
+        and 1335 coil samples is used to validate the proposed method. Two
+        Delta-based approaches, namely back propagation neural network (BPNN)
+        and extreme learning machine (ELM); and three LUBE-based approaches,
+        namely ABC-BPNN, ABC-ELM, and ABC-support vector regression (SVR)
+        are compared with the proposed method. Results show that the proposed
+        ABC-BLS in LUBE is effective and efficient in constructing the PIs
+        with a higher coverage probability and a narrower interval width.',
+    doi: 'https://doi.org/10.1016/j.jmsy.2022.08.014', url: 'https://www.sciencedirect.com/science/article/pii/S027861252200142X',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2022', author: Gongzhuang
+        Peng and Yinliang Cheng and Yufei Zhang and Jian Shao and Hongwei
+        Wang and Weiming Shen, title_bib: industrial big data-driven mechanical
+        performance prediction for hot-rolling steel using lower upper bound
+        estimation method, type_publication: article, id: PENG2022104, number: .nan,
+    volume: '65', journal: Journal of Manufacturing Systems, booktitle: .nan,
+    issn: 02786125, note: .nan, editor: .nan, edition: .nan}
+- {index: 1081, scimago_value: 1183.0, sourceid: 20107.0, title_csv: survey
+        of ophthalmology, type: journal, sjr: '2,131', sjr_best_quartile: Q1,
+    h_index: 132.0, total_docs__2020: 69.0, total_docs__3years: 235.0, total_refs_: 6991.0,
+    total_cites_3years: 1131.0, citable_docs__3years: 199.0, cites__doc__2years: '4,75',
+    ref___doc_: '101,32', country: United States, region: Northern America,
+    publisher_x: Elsevier USA, coverage: '1956-1970, 1972-2020', categories: Ophthalmology
+        (Q1), jcr_value: 1329.0, total_cites: '7,296', journal_impact_factor: '6.048',
+    eigenfactor_score: 0.00487, issn_0: 00396257, issn_1: '18793304', issn_2: 00396257,
+    keywords: 'data linkage, clinical registry, health services research,
+        ophthalmic epidemiology, big data', numpages: .nan, pages: 443-465,
+    series: .nan, location: .nan, abstract: "Large population-based health\
+        \ administrative databases, clinical registries, and data linkage\
+        \ systems are a rapidly expanding resource for health research. Ophthalmic\
+        \ research has benefited from the use of these databases in expanding\
+        \ the breadth of knowledge in areas such as disease surveillance,\
+        \ disease etiology, health services utilization, and health outcomes.\
+        \ Furthermore, the quantity of data available for research has increased\
+        \ exponentially in recent times, particularly as e-health initiatives\
+        \ come online in health systems across the globe. We review some big\
+        \ data concepts, the databases and data linkage systems used in eye\
+        \ research\u2014including their advantages and limitations, the types\
+        \ of studies previously undertaken, and the future direction for big\
+        \ data in eye research.", doi: 'https://doi.org/10.1016/j.survophthal.2016.01.003',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0039625716000023',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2016', author: Antony
+        Clark and Jonathon Q. Ng and Nigel Morlet and James B. Semmens, title_bib: big
+        data and ophthalmic research, type_publication: article, id: CLARK2016443,
+    number: '4', volume: '61', journal: Survey of Ophthalmology, booktitle: .nan,
+    issn: 00396257, note: .nan, editor: .nan, edition: .nan}
+- {index: 1571, scimago_value: 1673.0, sourceid: 16956.0, title_csv: cities,
+    type: journal, sjr: '1,771', sjr_best_quartile: Q1, h_index: 90.0, total_docs__2020: 419.0,
+    total_docs__3years: 732.0, total_refs_: 28409.0, total_cites_3years: 4866.0,
+    citable_docs__3years: 723.0, cites__doc__2years: '6,19', ref___doc_: '67,80',
+    country: United Kingdom, region: Western Europe, publisher_x: Elsevier
+        Ltd., coverage: 1983-2020, categories: 'Development (Q1); Sociology
+        and Political Science (Q1); Tourism, Leisure and Hospitality Management
+        (Q1); Urban Studies (Q1)', jcr_value: 1432.0, total_cites: '11,076',
+    journal_impact_factor: '5.835', eigenfactor_score: 0.01251, issn_0: '02642751',
+    issn_1: '02642751', issn_2: '02642751', keywords: 'Polycentricity, Urban
+        centers, Multi-scale, Street blocks, Geospatial big data, Chinese
+        cities', numpages: .nan, pages: '103298', series: .nan, location: .nan,
+    abstract: 'With current decentralization trends and polycentric planning
+        efforts, the urban spatial structures of Chinese cities have been
+        changing tremendously. To detect the true urban polycentric pattern
+        of Chinese cities, this article analyzed the urban polycentricity
+        characteristics of 294 cities. The natural cities were delineated
+        by points of interest (POIs), and road networks constituted street
+        blocks. Based on check-in data and new spatial units, centers within
+        both metropolitan areas and central cities were identified and examined.
+        We discovered that all Chinese cities have at least one natural city
+        in their metropolitan areas because of rapid urban sprawl. Although
+        a monocentric structure is still the most common urban spatial structure,
+        110 Chinese cities displayed different degrees of polycentricity at
+        the metropolitan level. Many natural cities beyond central cities
+        contribute to polycentric development at the metropolitan level. Central
+        cities have maintained their original vitality and importance, most
+        Chinese cities have dispersed urban structures in central cities,
+        and 45 central cities are polycentric. The spatial structures in metropolitan
+        areas are more polycentric than those in central cities. The only
+        36 cities with polycentric urban structures at both the metropolitan
+        and central city levels are all national or regional central cities
+        in eastern China.', doi: 'https://doi.org/10.1016/j.cities.2021.103298',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0264275121001980',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2021', author: Yongqiang
+        Lv and Lin Zhou and Guobiao Yao and Xinqi Zheng, title_bib: 'detecting
+        the true urban polycentric pattern of chinese cities in morphological
+        dimensions: a multiscale analysis based on geospatial big data', type_publication: article,
+    id: LV2021103298, number: .nan, volume: '116', journal: Cities, booktitle: .nan,
+    issn: '02642751', note: .nan, editor: .nan, edition: .nan}
+- {index: 3024, scimago_value: 3401.0, sourceid: 12332.0, title_csv: safety
+        science, type: journal, sjr: '1,178', sjr_best_quartile: Q1, h_index: 111.0,
+    total_docs__2020: 451.0, total_docs__3years: 1047.0, total_refs_: 26276.0,
+    total_cites_3years: 5909.0, citable_docs__3years: 1020.0, cites__doc__2years: '5,49',
+    ref___doc_: '58,26', country: Netherlands, region: Western Europe, publisher_x: Elsevier,
+    coverage: 1991-2020, categories: 'Public Health, Environmental and Occupational
+        Health (Q1); Safety Research (Q1); Safety, Risk, Reliability and Quality
+        (Q1)', jcr_value: 2094.0, total_cites: '17,184', journal_impact_factor: '4.877',
+    eigenfactor_score: 0.01488, issn_0: 09257535, issn_1: 09257535, issn_2: 09257535,
+    keywords: 'Big data (BD), Safety big data (SBD), Safety decision-making
+        (SDM), Safety insight (SI), Data-driven', numpages: .nan, pages: 46-56,
+    series: .nan, location: .nan, abstract: "Safety data and information are\
+        \ the most valuable assets for organizations\u2019 safety decision-making\
+        \ (SDM), especially in the era of big data (BD). In this study, a\
+        \ conceptual framework for SDM based on BD, known as BD-driven SDM,\
+        \ was developed and its detailed structure and elements as well as\
+        \ strategies were presented. Other theoretical and practical contributions\
+        \ include: (a) the description of the meta-process and interdisciplinary\
+        \ research area of BD-driven SDM, (b) the design of six types of general\
+        \ analytics and five types of special analytics for SBD mining according\
+        \ to different requirements of safety management applications, (c)\
+        \ the analysis of influencing factors of BD-driven SDM, and (d) the\
+        \ discussion of advantages and limitations in this research as well\
+        \ as suggestions for future research. The results obtained from this\
+        \ study are of important implications for research and practice on\
+        \ BD-driven SDM.", doi: 'https://doi.org/10.1016/j.ssci.2018.05.012',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0925753518300973',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2018', author: Lang
+        Huang and Chao Wu and Bing Wang and Qiumei Ouyang, title_bib: 'big-data-driven
+        safety decision-making: a conceptual framework and its influencing
+        factors', type_publication: article, id: HUANG201846, number: .nan,
+    volume: '109', journal: Safety Science, booktitle: .nan, issn: 09257535,
+    note: .nan, editor: .nan, edition: .nan}
+- {index: 3025, scimago_value: 3401.0, sourceid: 12332.0, title_csv: safety
+        science, type: journal, sjr: '1,178', sjr_best_quartile: Q1, h_index: 111.0,
+    total_docs__2020: 451.0, total_docs__3years: 1047.0, total_refs_: 26276.0,
+    total_cites_3years: 5909.0, citable_docs__3years: 1020.0, cites__doc__2years: '5,49',
+    ref___doc_: '58,26', country: Netherlands, region: Western Europe, publisher_x: Elsevier,
+    coverage: 1991-2020, categories: 'Public Health, Environmental and Occupational
+        Health (Q1); Safety Research (Q1); Safety, Risk, Reliability and Quality
+        (Q1)', jcr_value: 2094.0, total_cites: '17,184', journal_impact_factor: '4.877',
+    eigenfactor_score: 0.01488, issn_0: 09257535, issn_1: 09257535, issn_2: 09257535,
+    keywords: 'Safety big data (SBD), Safety small data (SSD), Safety science,
+        Big data application, Method, Principle, Prospect and challenge',
+    numpages: .nan, pages: 60-71, series: .nan, location: .nan, abstract: 'It
+        is clear that big data has numerous potential impacts in many fields.
+        However, few papers discussed its applications in the field of safety
+        science research. Additionally, there exist many problems that cannot
+        be ignored when big data is applied to safety science, most outstanding
+        of which is lack of universal supporting theory that guides how to
+        apply big data to safety science research like methods, principles
+        and approaches, etc. In other terms, it is not enough for big data
+        to be viewed asa strong enabler for safety science applications mainly
+        due to lack of universal and basic theory from the perspective of
+        safety science. Considering the above analyzes, the two key objectives
+        of this paper are: (1) to propose the connotation of safety big data
+        (SBD) and its applying rules, methods and principles, and (2) to put
+        forward some application prospects and challenges of big data to safety
+        science research seen from theoretical research. First, by comparing
+        SBD and traditional safety small data (SSD) from four aspects including
+        theoretical research, typical research method, specific analysis method
+        and processing mode, this paper puts forward the definition and connotation
+        of SBD. Subsequently this paper further summarizes and extracts the
+        application rules and methods of SBD. And then nine principles of
+        SBD are explored and their relationship and application are addressed
+        from the view of theory architecture and working framework in data
+        processing flow. At last, this paper also discusses the potential
+        applications and some hot issues of SBD. Overall, this paper will
+        play an essential role in supporting the application of SBD. In addition,
+        it will fill in the theory gaps in the field of SBD beyond traditional
+        safety statistics, and further enriches the contents of safety science.',
+    doi: 'https://doi.org/10.1016/j.ssci.2017.08.012', url: 'https://www.sciencedirect.com/science/article/pii/S0925753517304320',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2018', author: Qiumei
+        Ouyang and Chao Wu and Lang Huang, title_bib: 'methodologies, principles
+        and prospects of applying big data in safety science research', type_publication: article,
+    id: OUYANG201860, number: .nan, volume: '101', journal: Safety Science,
+    booktitle: .nan, issn: 09257535, note: .nan, editor: .nan, edition: .nan}
+- {index: 4205, scimago_value: 4928.0, sourceid: 23604.0, title_csv: computer
+        methods and programs in biomedicine, type: journal, sjr: '0,924',
+    sjr_best_quartile: Q1, h_index: 102.0, total_docs__2020: 538.0, total_docs__3years: 789.0,
+    total_refs_: 23721.0, total_cites_3years: 4743.0, citable_docs__3years: 753.0,
+    cites__doc__2years: '6,27', ref___doc_: '44,09', country: Ireland, region: Western
+        Europe, publisher_x: Elsevier Ireland Ltd, coverage: 1985-2020, categories: Computer
+        Science Applications (Q1); Software (Q1); Health Informatics (Q2),
+    jcr_value: 1653.0, total_cites: '12,277', journal_impact_factor: '5.428',
+    eigenfactor_score: 0.01119, issn_0: 01692607, issn_1: '18727565', issn_2: 01692607,
+    keywords: 'Integrated learning, Health care system, Elaboration Likelihood
+        Machine, System design, Medical big data, Internet of Medical Things',
+    numpages: .nan, pages: '106293', series: .nan, location: .nan, abstract: "Purpose\n\
+        We present a Health Care System (HCS) based on integrated learning\
+        \ to achieve high-efficiency and high-precision integration of medical\
+        \ and health big data, and compared it with an internet-based integrated\
+        \ system.\nMethod\nThe method proposed in this paper adopts the Bagging\
+        \ integrated learning method and the Extreme Learning Machine (ELM)\
+        \ prediction model to obtain a high-precision strong learning model.\
+        \ In order to verify the integration efficiency of the system, we\
+        \ compare it with the Internet-based health big data integration system\
+        \ in terms of integration volume, integration efficiency, and storage\
+        \ space capacity.\nResults\nThe HCS based on integrated learning relies\
+        \ on the Internet in terms of integration volume, integration efficiency,\
+        \ and storage space capacity. The amount of integration is proportional\
+        \ to the time and the integration time is between 170-450\_ms, which\
+        \ is only half of the comparison system; whereby the storage space\
+        \ capacity reaches 8.3\xD728TB.\nConclusion\nThe experimental results\
+        \ show that the integrated learning-based HCS integrates medical and\
+        \ health big data with high integration volume and integration efficiency,\
+        \ and has high space storage capacity and concurrent data processing\
+        \ performance.", doi: 'https://doi.org/10.1016/j.cmpb.2021.106293',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0169260721003679',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2021', author: Yuguang
+        Ye and Jianshe Shi and Daxin Zhu and Lianta Su and Jianlong Huang
+        and Yifeng Huang, title_bib: 'management of medical and health big
+        data based on integrated learning-based health care system: a review
+        and comparative analysis', type_publication: article, id: YE2021106293,
+    number: .nan, volume: '209', journal: Computer Methods and Programs in
+        Biomedicine, booktitle: .nan, issn: 01692607, note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 5745, scimago_value: 7068.0, sourceid: 19700174607.0, title_csv: journal
+        of computational science, type: journal, sjr: '0,704', sjr_best_quartile: Q1,
+    h_index: 46.0, total_docs__2020: 123.0, total_docs__3years: 485.0, total_refs_: 5550.0,
+    total_cites_3years: 2325.0, citable_docs__3years: 465.0, cites__doc__2years: '4,97',
+    ref___doc_: '45,12', country: Netherlands, region: Western Europe, publisher_x: Elsevier,
+    coverage: 2010-2020, categories: Computer Science (miscellaneous) (Q1);
+        Modeling and Simulation (Q2); Theoretical Computer Science (Q2), jcr_value: 3097.0,
+    total_cites: '3,198', journal_impact_factor: '3.976', eigenfactor_score: 0.00489,
+    issn_0: '18777503', issn_1: '18777503', issn_2: '18777503', keywords: 'data
+        driven sustainable enterprise, fuzzy unordered induction algo, big
+        data analytics, condition-based maintenance, machine learning techniques,
+        backward feature elimination', numpages: .nan, pages: 428-439, series: .nan,
+    location: .nan, abstract: 'Smart manufacturing refers to a future-state
+        of manufacturing and it can lead to remarkable changes in all aspects
+        of operations through minimizing energy and material usage while simultaneously
+        maximizing sustainability enabling a futuristic more digitalized scenario
+        of manufacturing. This research develops a big data analytics framework
+        that optimizes the maintenance schedule through condition-based maintenance
+        (CBM) optimization and also improves the prediction accuracy to quantify
+        the remaining life prediction uncertainty. Through effective utilization
+        of condition monitoring and prediction information, CBM would enhance
+        equipment reliability leading to reduction in maintenance cost. The
+        proposed framework uses a CBM optimization method that utilizes a
+        new linguistic interval-valued fuzzy reasoning method for predicting
+        the information. The proposed big data analytics framework in our
+        study for estimating the uncertainty based on backward feature elimination
+        and fuzzy unordered rule induction algorithm prediction errors, is
+        an innovative contribution to the remaining life prediction field.
+        Our paper elaborates on the basic underlying structure of CBM system
+        that is defined by transaction matrix and the threshold value of failure
+        probability. We developed this framework for analysing the CBM policy
+        cost more accurately and to find the probabilistic threshold values
+        of covariate that corresponds to the lowest price of predictive maintenance
+        cost. The experimental results are performed on a big dataset which
+        is generated from a sophisticated simulator of a gas turbine propulsion
+        plant. A comparative analysis confirms that the method used in the
+        proposed framework outpaces the classical methods in terms of classification
+        accuracy and other statistical performance evaluation metrics.', doi: 'https://doi.org/10.1016/j.jocs.2017.06.006',
+    url: 'https://www.sciencedirect.com/science/article/pii/S1877750316305129',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2018', author: Ajay
+        Kumar and Ravi Shankar and Lakshman S. Thakur, title_bib: a big data
+        driven sustainable manufacturing framework for condition-based maintenance
+        prediction, type_publication: article, id: KUMAR2018428, number: .nan,
+    volume: '27', journal: Journal of Computational Science, booktitle: .nan,
+    issn: '18777503', note: .nan, editor: .nan, edition: .nan}
+- {index: 6916, scimago_value: 8945.0, sourceid: 21100356018.0, title_csv: big
+        data research, type: journal, sjr: '0,565', sjr_best_quartile: Q2,
+    h_index: 25.0, total_docs__2020: 11.0, total_docs__3years: 76.0, total_refs_: 547.0,
+    total_cites_3years: 324.0, citable_docs__3years: 69.0, cites__doc__2years: '4,06',
+    ref___doc_: '49,73', country: United States, region: Northern America,
+    publisher_x: Elsevier Inc., coverage: 2014-2020, categories: Computer
+        Science Applications (Q2); Information Systems (Q2); Information Systems
+        and Management (Q2); Management Information Systems (Q2), jcr_value: 3708.0,
+    total_cites: '586', journal_impact_factor: '3.578', eigenfactor_score: 0.00126,
+    issn_0: '22145796', issn_1: '22145796', issn_2: '22145796', keywords: 'Renal
+        failure, Risk prediction, Electronic health record, Health big data,
+        Machine learning', numpages: .nan, pages: '100234', series: .nan,
+    location: .nan, abstract: 'Renal failure is a fatal disease raising global
+        concerns. Previous risk models for renal failure mostly rely on the
+        diagnosis of chronic kidney disease, which lacks obvious clinical
+        symptoms and thus is mostly undiagnosed, causing significant omission
+        of high-risk patients. In this paper, we proposed a framework to predict
+        the risk of renal failure directly from a big data repository of chronic
+        disease population without prerequisite diagnosis of chronic kidney
+        disease. The electronic health records of 42,256 patients with hypertension
+        or diabetes in Shenzhen Health Information Big Data Platform were
+        collected, with 398 suffered from renal failure during a 3-year follow-up.
+        Five state-of-the-art machine learning methods are utilized to build
+        risk prediction models of renal failure for chronic disease population.
+        Extensive experimental results show that the proposed framework achieves
+        quite well performance. Particularly, the XGBoost obtains the best
+        performance with an area under receiving-operating-characteristics
+        curve (AUC) of 0.9139. By analyzing the effect of risk factors, we
+        identified that serum creatine, age, urine acid, systolic blood pressure,
+        and blood urea nitrogen are the top five factors associated with renal
+        failure risk. Compared with existing models, our model can be deployed
+        into routine chronic disease management procedures and enable more
+        preemptive, widely-covered screening of renal risks, which would in
+        turn reduce the damage caused by the disease through timely intervention.',
+    doi: 'https://doi.org/10.1016/j.bdr.2021.100234', url: 'https://www.sciencedirect.com/science/article/pii/S2214579621000514',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2021', author: Yujie
+        Yang and Ye Li and Runge Chen and Jing Zheng and Yunpeng Cai and Giancarlo
+        Fortino, title_bib: risk prediction of renal failure for chronic disease
+        population based on electronic health record big data, type_publication: article,
+    id: YANG2021100234, number: .nan, volume: '25', journal: Big Data Research,
+    booktitle: .nan, issn: '22145796', note: .nan, editor: .nan, edition: .nan}
+- {index: 6928, scimago_value: 8945.0, sourceid: 21100356018.0, title_csv: big
+        data research, type: journal, sjr: '0,565', sjr_best_quartile: Q2,
+    h_index: 25.0, total_docs__2020: 11.0, total_docs__3years: 76.0, total_refs_: 547.0,
+    total_cites_3years: 324.0, citable_docs__3years: 69.0, cites__doc__2years: '4,06',
+    ref___doc_: '49,73', country: United States, region: Northern America,
+    publisher_x: Elsevier Inc., coverage: 2014-2020, categories: Computer
+        Science Applications (Q2); Information Systems (Q2); Information Systems
+        and Management (Q2); Management Information Systems (Q2), jcr_value: 3708.0,
+    total_cites: '586', journal_impact_factor: '3.578', eigenfactor_score: 0.00126,
+    issn_0: '22145796', issn_1: '22145796', issn_2: '22145796', keywords: 'Anomaly
+        detection, Data repair, Geo-distributed big data, Spatial autocorrelation,
+        Neural networks, Gradient-boosting', numpages: .nan, pages: 18-35,
+    series: .nan, location: .nan, abstract: 'The increasing presence of geo-distributed
+        sensor networks implies the generation of huge volumes of data from
+        multiple geographical locations at an increasing rate. This raises
+        important issues which become more challenging when the final goal
+        is that of the analysis of the data for forecasting purposes or, more
+        generally, for predictive tasks. This paper proposes a framework which
+        supports predictive modeling tasks from streaming data coming from
+        multiple geo-referenced sensors. In particular, we propose a distance-based
+        anomaly detection strategy which considers objects described by embedding
+        features learned via a stacked auto-encoder. We then devise a repair
+        strategy which repairs the data detected as anomalous exploiting non-anomalous
+        data measured by sensors in nearby spatial locations. Subsequently,
+        we adopt Gradient Boosted Trees (GBTs) to predict/forecast values
+        assumed by a target variable of interest for the repaired newly arriving
+        (unlabeled) data, using the original feature representation or the
+        embedding feature representation learned via the stacked auto-encoder.
+        The workflow is implemented with distributed Apache Spark programming
+        primitives and tested on a cluster environment. We perform experiments
+        to assess the performance of each module, separately and in a combined
+        manner, considering the predictive modeling of one-day-ahead energy
+        production, for multiple renewable energy sites. Accuracy results
+        show that the proposed framework allows reducing the error up to 13.56%.
+        Moreover, scalability results demonstrate the efficiency of the proposed
+        framework in terms of speedup, scaleup and execution time under a
+        stress test.', doi: 'https://doi.org/10.1016/j.bdr.2019.04.001', url: 'https://www.sciencedirect.com/science/article/pii/S2214579618302119',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2019', author: Roberto
+        Corizzo and Michelangelo Ceci and Nathalie Japkowicz, title_bib: anomaly
+        detection and repair for accurate predictions in geo-distributed big
+        data, type_publication: article, id: CORIZZO201918, number: .nan,
+    volume: '16', journal: Big Data Research, booktitle: .nan, issn: '22145796',
+    note: .nan, editor: .nan, edition: .nan}
+- {index: 3023, scimago_value: 3423.0, sourceid: 13754.0, title_csv: process
+        safety and environmental protection, type: journal, sjr: '1,173',
+    sjr_best_quartile: Q1, h_index: 76.0, total_docs__2020: 417.0, total_docs__3years: 1079.0,
+    total_refs_: 20761.0, total_cites_3years: 6888.0, citable_docs__3years: 1071.0,
+    cites__doc__2years: '6,41', ref___doc_: '49,79', country: United Kingdom,
+    region: Western Europe, publisher_x: Institution of Chemical Engineers,
+    coverage: 1990-2021, categories: 'Chemical Engineering (miscellaneous)
+        (Q1); Environmental Engineering (Q1); Safety, Risk, Reliability and
+        Quality (Q1); Environmental Chemistry (Q2)', jcr_value: 1274.0, total_cites: '12,452',
+    journal_impact_factor: '6.158', eigenfactor_score: 0.01335, issn_0: '17443598',
+    issn_1: 09575820, issn_2: '17443598', keywords: 'Safety intelligence (SI),
+        Safety big data, Safety 4.0, Safety management, Safety decision-making',
+    numpages: .nan, pages: 189-199, series: .nan, location: .nan, abstract: "In\
+        \ the age of big data, intelligence, and Industry 4.0, intelligence\
+        \ plays an increasingly significant role in management or, more specifically,\
+        \ decision making; thus, it becomes a popular topic and is recognised\
+        \ as an important discipline. Hence, safety intelligence (SI) as a\
+        \ new safety concept and term was proposed. SI aims to transform raw\
+        \ safety data and information into meaningful and actionable information\
+        \ for safety management; it is considered an essential perspective\
+        \ for safety management in the era of Safety 4.0 (computational safety\
+        \ science\u2014a new paradigm for safety science in the age of big\
+        \ data, intelligence, and Industry 4.0). However, thus far, no existing\
+        \ research provides a framework that comprehensively describes SI\
+        \ and guides the implementation of SI practices in organisations.\
+        \ To address this research gap and to provide a framework for SI and\
+        \ its practice in the context of safety management, based on a systematic\
+        \ and comprehensive explanation on SI from different perspectives,\
+        \ this study attempts to propose a theoretical framework for SI from\
+        \ a safety management perspective and then presents an SI practice\
+        \ model aimed at supporting safety management in organisations.",
+    doi: 'https://doi.org/10.1016/j.psep.2020.10.008', url: 'https://www.sciencedirect.com/science/article/pii/S0957582020318000',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2021', author: Bing
+        Wang, title_bib: 'safety intelligence as an essential perspective
+        for safety management in the era of safety 4.0: from a theoretical
+        to a practical framework', type_publication: article, id: WANG2021189,
+    number: .nan, volume: '148', journal: Process Safety and Environmental
+        Protection, booktitle: .nan, issn: 09575820, note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 3141, scimago_value: 3563.0, sourceid: 27277.0, title_csv: journal
+        of network and computer applications, type: journal, sjr: '1,145',
+    sjr_best_quartile: Q1, h_index: 105.0, total_docs__2020: 187.0, total_docs__3years: 713.0,
+    total_refs_: 13916.0, total_cites_3years: 5998.0, citable_docs__3years: 701.0,
+    cites__doc__2years: '8,17', ref___doc_: '74,42', country: United States,
+    region: Northern America, publisher_x: Academic Press Inc., coverage: 1996-2020,
+    categories: Computer Networks and Communications (Q1); Computer Science
+        Applications (Q1); Hardware and Architecture (Q1), jcr_value: 1218.0,
+    total_cites: '9,700', journal_impact_factor: '6.281', eigenfactor_score: 0.0115,
+    issn_0: '10958592', issn_1: '10848045', issn_2: '10958592', keywords: 'Multimedia
+        big data, Data acquisition, Data representation, Data reduction, Data
+        analysis, Data security and privacy, System intelligence, Distributed
+        system, Social media', numpages: .nan, pages: 169-195, series: .nan,
+    location: .nan, abstract: "With an exponential increase in the provisioning\
+        \ of multimedia devices over the Internet of Things (IoT), a significant\
+        \ amount of multimedia data (also referred to as multimedia big data\
+        \ \u2013 MMBD) is being generated. Current research and development\
+        \ activities focus on scalar sensor data based IoT or general MMBD\
+        \ and overlook the complexity of facilitating MMBD over IoT. This\
+        \ paper examines the unique nature and complexity of MMBD computing\
+        \ for IoT applications and develops a comprehensive taxonomy for MMBD\
+        \ abstracted into a novel process model reflecting MMBD over IoT.\
+        \ This process model addresses a number of research challenges associated\
+        \ with MMBD, such as scalability, accessibility, reliability, heterogeneity,\
+        \ and Quality of Service (QoS) requirements. A case study is presented\
+        \ to demonstrate the process model.", doi: 'https://doi.org/10.1016/j.jnca.2018.09.014',
+    url: 'https://www.sciencedirect.com/science/article/pii/S1084804518303011',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2018', author: Aparna
+        Kumari and Sudeep Tanwar and Sudhanshu Tyagi and Neeraj Kumar and
+        Michele Maasberg and Kim-Kwang Raymond Choo, title_bib: 'multimedia
+        big data computing and internet of things applications: a taxonomy
+        and process model', type_publication: article, id: KUMARI2018169,
+    number: .nan, volume: '124', journal: Journal of Network and Computer
+        Applications, booktitle: .nan, issn: '10848045', note: .nan, editor: .nan,
+    edition: .nan}
+- {index: 3520, scimago_value: 4030.0, sourceid: 23706.0, title_csv: journal
+        of biomedical informatics, type: journal, sjr: '1,057', sjr_best_quartile: Q1,
+    h_index: 103.0, total_docs__2020: 203.0, total_docs__3years: 591.0, total_refs_: 9904.0,
+    total_cites_3years: 3884.0, citable_docs__3years: 527.0, cites__doc__2years: '7,05',
+    ref___doc_: '48,79', country: United States, region: Northern America,
+    publisher_x: Academic Press Inc., coverage: 2001-2020, categories: Computer
+        Science Applications (Q1); Health Informatics (Q1), jcr_value: 1199.0,
+    total_cites: '12,255', journal_impact_factor: '6.317', eigenfactor_score: 0.01469,
+    issn_0: '15320480', issn_1: '15320464', issn_2: '15320480', keywords: 'Medical
+        big data, Data sharing, Information security, Cooperation mechanism,
+        Medical data acquisition, Medical data centre', numpages: .nan, pages: '103149',
+    series: .nan, location: .nan, abstract: 'The construction of medical big
+        data includes several problems that need to be solved, such as integration
+        and data sharing of many heterogeneous information systems, efficient
+        processing and analysis of large-scale medical data with complex structure
+        or low degree of structure, and narrow application range of medical
+        data. Therefore, medical big data construction is not only a simple
+        collection and application of medical data but also a complex systematic
+        project. This paper introduces China''s experience in the construction
+        of a regional medical big data ecosystem, including the overall goal
+        of the project; establishment of policies to encourage data sharing;
+        handling the relationship between personal privacy, information security,
+        and information availability; establishing a cooperation mechanism
+        between agencies; designing a polycentric medical data acquisition
+        system; and establishing a large data centre. From the experience
+        gained from one of China''s earliest established medical big data
+        projects, we outline the challenges encountered during its development
+        and recommend approaches to overcome these challenges to design medical
+        big data projects in China more rationally. Clear and complete top-level
+        design of a project requires to be planned in advance and considered
+        carefully. It is essential to provide a culture of information sharing
+        and to facilitate the opening of data, and changes in ideas and policies
+        need the guidance of the government. The contradiction between data
+        sharing and data security must be handled carefully, that is not to
+        say data openness could be abandoned. The construction of medical
+        big data involves many institutions, and high-level management and
+        cooperation can significantly improve efficiency and promote innovation.
+        Compared with infrastructure construction, it is more challenging
+        and time-consuming to develop appropriate data standards, data integration
+        tools and data mining tools.', doi: 'https://doi.org/10.1016/j.jbi.2019.103149',
+    url: 'https://www.sciencedirect.com/science/article/pii/S153204641930067X',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2019', author: Bei
+        Li and Jianbin Li and Yuqiao Jiang and Xiaoyun Lan, title_bib: "experience\
+        \ and reflection from china\u2019s xiangya medical big data project",
+    type_publication: article, id: LI2019103149, number: .nan, volume: '93',
+    journal: Journal of Biomedical Informatics, booktitle: .nan, issn: '15320464',
+    note: .nan, editor: .nan, edition: .nan}
+- {index: 9991, scimago_value: 18031.0, sourceid: 27052.0, title_csv: aorn
+        journal, type: journal, sjr: '0,222', sjr_best_quartile: Q2, h_index: 43.0,
+    total_docs__2020: 288.0, total_docs__3years: 682.0, total_refs_: 2461.0,
+    total_cites_3years: 276.0, citable_docs__3years: 475.0, cites__doc__2years: '0,25',
+    ref___doc_: '8,55', country: United States, region: Northern America,
+    publisher_x: John Wiley &amp; Sons Inc., coverage: 1963-2020, categories: Medical
+        and Surgical Nursing (Q2), jcr_value: 11862.0, total_cites: '1,553',
+    journal_impact_factor: '0.676', eigenfactor_score: 0.0013, issn_0: '18780369',
+    issn_1: 00012092, issn_2: '18780369', keywords: 'big data, perioperative
+        nursing, quality care, nursing knowledge, nursing informatics', numpages: .nan,
+    pages: 286-292, series: .nan, location: .nan, abstract: "Big data are\
+        \ large volumes of digital data that can be collected from disparate\
+        \ sources and are challenging to analyze. These data are often described\
+        \ with the five \u201CVs\u201D: volume, velocity, variety, veracity,\
+        \ and value. Perioperative nurses contribute to big data through documentation\
+        \ in the electronic health record during routine surgical care, and\
+        \ these data have implications for clinical decision making, administrative\
+        \ decisions, quality improvement, and big data science. This article\
+        \ explores methods to improve the quality of perioperative nursing\
+        \ data and provides examples of how these data can be combined with\
+        \ broader nursing data for quality improvement. We also discuss a\
+        \ national action plan for nursing knowledge and big data science\
+        \ and how perioperative nurses can engage in collaborative actions\
+        \ to transform health care. Standardized perioperative nursing data\
+        \ has the potential to affect care far beyond the original patient.",
+    doi: 'https://doi.org/10.1016/j.aorn.2016.07.009', url: 'https://www.sciencedirect.com/science/article/pii/S0001209216304410',
+    address: .nan, publisher_y: .nan, isbn: .nan, year: '2016', author: Bonnie
+        L. Westra and Jessica J. Peterson, title_bib: big data and perioperative
+        nursing, type_publication: article, id: WESTRA2016286, number: '4',
+    volume: '104', journal: AORN Journal, booktitle: .nan, issn: 00012092,
+    note: 'Special Focus Issue: Technology', editor: .nan, edition: .nan}

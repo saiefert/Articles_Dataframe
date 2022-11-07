@@ -6,11 +6,13 @@ file_saved_format_rank: yaml
 
 columns_filters:
    #column 1
- - column: "title"
+ - column: "title_csv"
+   filter: ["accident analysis and prevention", "american journal of ophthalmology"]
+ - column: "title_bib"
    filter: ["ca-a cancer journal for clinicians", "nature reviews molecular cell biology"]
    #column 2
  - column: "keywords"
-   filter: 
+   filter: ["big data"]
    #column 3
  - column: "abstract"
    filter: 
