@@ -7,7 +7,7 @@ file_saved_format_rank: yaml
 columns_filters:
    #column 1
  - column: "title"
-   filter: "ca-a cancer journal for clinicians"
+   filter: ["ca-a cancer journal for clinicians", "nature reviews molecular cell biology"]
    #column 2
  - column: "keywords"
    filter: 
@@ -28,4 +28,4 @@ columns_filters:
    filter: "4"
    #column 8
  - column: "scimago_value"
-   filter: "3"
+   filter: ["5", "7"]

@@ -6,6 +6,14 @@
     region: Northern America, publisher: Wiley-Blackwell, coverage: 1950-2020,
     categories: Hematology (Q1); Oncology (Q1), jcr_value: 1, total_cites: '55,868',
     journal_impact_factor: '508.702', eigenfactor_score: 0.10514}
+- {index: 2, scimago_value: 3, sourceid: 20315, title: nature reviews molecular
+        cell biology, type: journal, issn: '14710072, 14710080', sjr: '37,461',
+    sjr_best_quartile: Q1, h_index: 431, total_docs__2020: 115, total_docs__3years: 338,
+    total_refs_: 8439, total_cites_3years: 10844, citable_docs__3years: 167,
+    cites__doc__2years: '32,83', ref___doc_: '73,38', country: United Kingdom,
+    region: Western Europe, publisher: Nature Publishing Group, coverage: 2000-2020,
+    categories: Cell Biology (Q1); Molecular Biology (Q1), jcr_value: 2, total_cites: '58,477',
+    journal_impact_factor: '94.444', eigenfactor_score: 0.07548}
 - {index: 73, scimago_value: 78, sourceid: 20425, title: nature reviews drug
         discovery, type: journal, issn: '14741784, 14741776', sjr: '9,921',
     sjr_best_quartile: Q1, h_index: 328, total_docs__2020: 247, total_docs__3years: 676,
@@ -15,11 +23,21 @@
     categories: Drug Discovery (Q1); Medicine (miscellaneous) (Q1); Pharmacology
         (Q1), jcr_value: 4, total_cites: '41,989', journal_impact_factor: '84.694',
     eigenfactor_score: 0.04822}
-- {index: 2, scimago_value: 3, sourceid: 20315, title: nature reviews molecular
-        cell biology, type: journal, issn: '14710072, 14710080', sjr: '37,461',
-    sjr_best_quartile: Q1, h_index: 431, total_docs__2020: 115, total_docs__3years: 338,
-    total_refs_: 8439, total_cites_3years: 10844, citable_docs__3years: 167,
-    cites__doc__2years: '32,83', ref___doc_: '73,38', country: United Kingdom,
-    region: Western Europe, publisher: Nature Publishing Group, coverage: 2000-2020,
-    categories: Cell Biology (Q1); Molecular Biology (Q1), jcr_value: 2, total_cites: '58,477',
-    journal_impact_factor: '94.444', eigenfactor_score: 0.07548}
+- {index: 4, scimago_value: 5, sourceid: 21100812243, title: nature reviews
+        materials, type: journal, issn: '20588437', sjr: '32,011', sjr_best_quartile: Q1,
+    h_index: 108, total_docs__2020: 92, total_docs__3years: 264, total_refs_: 10632,
+    total_cites_3years: 11188, citable_docs__3years: 138, cites__doc__2years: '32,15',
+    ref___doc_: '115,57', country: United Kingdom, region: Western Europe,
+    publisher: Nature Publishing Group, coverage: 2016-2020, categories: 'Biomaterials
+        (Q1); Electronic, Optical and Magnetic Materials (Q1); Energy (miscellaneous)
+        (Q1); Materials Chemistry (Q1); Surfaces, Coatings and Films (Q1)',
+    jcr_value: 7, total_cites: '19,887', journal_impact_factor: '66.308',
+    eigenfactor_score: 0.05677}
+- {index: 5, scimago_value: 7, sourceid: 18434, title: cell, type: journal,
+    issn: '00928674, 10974172', sjr: '26,304', sjr_best_quartile: Q1, h_index: 776,
+    total_docs__2020: 572, total_docs__3years: 1690, total_refs_: 35345, total_cites_3years: 52644,
+    citable_docs__3years: 1563, cites__doc__2years: '28,45', ref___doc_: '61,79',
+    country: United States, region: Northern America, publisher: Cell Press,
+    coverage: 1974-2020, categories: 'Biochemistry, Genetics and Molecular
+        Biology (miscellaneous) (Q1)', jcr_value: 33, total_cites: '320,407',
+    journal_impact_factor: '41.582', eigenfactor_score: 0.52696}

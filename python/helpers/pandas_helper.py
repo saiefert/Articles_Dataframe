@@ -128,15 +128,16 @@ class PandasHelper():
 
         for column in column_filter:
             if column['filter'] is not None:
-                if df[column['column']].dtypes == 'int64' or df[column['column']].dtypes == 'float64': # noqa
-                    df_filter = df.query(
-                        f"{column['column']} == {column['filter']}"
-                        )
-                    df_response = pd.concat([df_response, df_filter])
+                for filter in column['filter']:
+                    if df[column['column']].dtypes == 'int64' or df[column['column']].dtypes == 'float64': # noqa
+                        df_filter = df.query(
+                            f"{column['column']} == {filter}"
+                            )
+                        df_response = pd.concat([df_response, df_filter])
 
-                else:
-                    df_filter = df[df[column['column']].str.contains(column['filter'], regex=True) == True] # noqa
-                    df_response = pd.concat([df_response, df_filter])
+                    else:
+                        df_filter = df[df[column['column']].str.contains(filter, regex=True) == True] # noqa
+                        df_response = pd.concat([df_response, df_filter])
 
         df_response = df_response.drop_duplicates()
 
