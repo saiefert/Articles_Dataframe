@@ -21,7 +21,28 @@ class ApiSDCHelper():
             return config_api_sdc['apikey']
 
     @staticmethod
-    def define_pagination(total_records: int, limit_articles_per_page: int) -> int:
+    def filter_list_query(filter_list: list, operator: str) -> str:
+        """Transforma as configs no formato da query
+        para o request
+
+        Args:
+            filter_list (list): lista com o que deseja filtrar
+            operator (str): tipo do operador OR ou AND
+
+        Returns:
+            str: retorna a query já no formato
+        """
+        operator_query = f'+{operator}+'
+        query_text = ''
+        for index, value in enumerate(filter_list):
+            value = urllib.parse.quote(value)
+            if index == 0:
+                query_text = query_text + value
+            else:
+                query_text = query_text + operator_query + value
+
+    @staticmethod
+    def define_pagination(total_records: int, limit_articles_per_page: int) -> int: # noqa
         """Calcula a paginação da API
 
         Args:
@@ -29,50 +50,49 @@ class ApiSDCHelper():
             limit_articles_per_page (int): Limite de dados por request
 
         Returns:
-            int: Retorna a quantidade de páginas necessárias para finalizar a busca
+            int: Retorna a quantidade de páginas necessárias
+            para finalizar a busca
         """
         pagination = math.ceil(total_records/limit_articles_per_page)
 
         return pagination
 
     @staticmethod
-    def search_articles_with_pages_sdc(filter_list: list, operator: str) -> pd.DataFrame:
-        """Faz uma consulta via API no site da sdc e devolve os artigos que se enquadram na busca,
-        considerando a paginação.
+    def search_articles_with_pages_sdc(filter_list_config: list, operator_config: str) -> pd.DataFrame: # noqa
+        """Faz uma consulta via API no site da sdc e devolve os artigos que se
+        enquadram na busca, considerando a paginação.
 
         Args:
-            filter_list (list): lista com as palavras que serão usadas na busca
-            operator (str): tipo de operador na hora da busca. Ex: OR ou AND
+            filter_list_config (list): lista com as palavras que serão
+            usadas na busca
+            operator_config (str): tipo de operador na hora da busca.
+            Ex: OR ou AND
 
         Returns:
             pd.DataFrame: Retorna o DataFrame pandas com os dados dos artigos
         """
         try:
-            operator_query = f'+{operator}+'
-            query_text = ''
             df_main = pd.DataFrame()
             api_key = ApiSDCHelper.api_key_sdc()
             MAX_ARTICLES_PER_PAGES = 25
             SUCCESS_REQUEST = 200
-            for index, value in enumerate(filter_list):
-                value = urllib.parse.quote(value)
-                if index == 0:
-                    query_text = query_text + value
-                else:
-                    query_text =query_text + operator_query + value 
+            query_text = ApiSDCHelper.filter_list_query(
+                filter_list=filter_list_config,
+                operator=operator_config
+                )
 
-            URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}"
+            URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}" # noqa
             response = requests.get(
                 URL
             )
             dict_df = response.json()
             pages = ApiSDCHelper.define_pagination(
-                total_records=int(dict_df['search-results']['opensearch:totalResults']),
+                total_records=int(dict_df['search-results']['opensearch:totalResults']), # noqa
                 limit_articles_per_page=MAX_ARTICLES_PER_PAGES
                 )
             for page in range(pages):
                 start_record = 0 + (page*MAX_ARTICLES_PER_PAGES)
-                URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}&start={start_record}"
+                URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}&start={start_record}" # noqa
                 response = requests.get(URL)
                 if response.status_code == SUCCESS_REQUEST:
                     dict_df = response.json()
@@ -81,36 +101,34 @@ class ApiSDCHelper():
                     df_main = pd.concat([df_main, df])
 
             return df_main
-        
+
         except Exception as e:
             raise e
 
     @staticmethod
-    def search_articles_without_pages_sdc(filter_list: list, operator: str) -> pd.DataFrame:
-        """Faz uma consulta via API no site da sdc e devolve os artigos que se enquadram na busca,
-        não considerando a paginação.
+    def search_articles_without_pages_sdc(filter_list_config: list, operator_config: str) -> pd.DataFrame: # noqa
+        """Faz uma consulta via API no site da sdc e devolve os artigos
+        que se enquadram na busca, não considerando a paginação.
 
         Args:
-            filter_list (list): lista com as palavras que serão usadas na busca
-            operator (str): tipo de operador na hora da busca. Ex: OR ou AND
+            filter_list_config (list): lista com as palavras que serão
+            usadas na busca
+            operator_config (str): tipo de operador na hora da busca.
+            Ex: OR ou AND
 
         Returns:
             pd.DataFrame: Retorna o DataFrame pandas com os dados dos artigos
         """
         try:
-            operator_query = f'+{operator}+'
-            query_text = ''
             df_main = pd.DataFrame()
             api_key = ApiSDCHelper.api_key_sdc()
             SUCCESS_REQUEST = 200
-            for index, value in enumerate(filter_list):
-                value = urllib.parse.quote(value)
-                if index == 0:
-                    query_text = query_text + value
-                else:
-                    query_text =query_text + operator_query + value 
+            query_text = ApiSDCHelper.filter_list_query(
+                filter_list=filter_list_config,
+                operator=operator_config
+                )
 
-            URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}"
+            URL = f"https://api.elsevier.com/content/search/sciencedirect?query={query_text}&httpAccept=application%2Fjson&apikey={api_key}" # noqa
             response = requests.get(
                 URL
             )
@@ -121,7 +139,7 @@ class ApiSDCHelper():
                 df_main = pd.concat([df_main, df])
 
             return df_main
-            
+
         except Exception as e:
             raise e
 

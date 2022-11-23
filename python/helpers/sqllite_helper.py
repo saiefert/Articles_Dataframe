@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 
+
 class SQLite3Helper:
 
     @staticmethod
@@ -11,14 +12,10 @@ class SQLite3Helper:
         :return: Connection object or None
         """
         con = None
-        try:
-            con = sqlite3.connect(db_file)
-            print(f'Conexão criada, novo database: {db_file}')
-        except:
-            print('Não foi possível criar conexão')
 
+        con = sqlite3.connect(db_file)
+        print(f'Conexão criada, novo database: {db_file}')
         con.close()
-
 
     @staticmethod
     def create_table(df: pd.DataFrame, db_file: str, table_name: str) -> None:
@@ -33,7 +30,7 @@ class SQLite3Helper:
         df = df.applymap(str)
         con = sqlite3.connect(db_file)
         df.to_sql(table_name, con, if_exists="replace")
-        print(f"Tabela criada")
+        print("Tabela criada")
 
         con.close()
 
