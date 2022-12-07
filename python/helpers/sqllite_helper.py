@@ -19,7 +19,7 @@ class SQLite3Helper:
         con.close()
 
     @staticmethod
-    def insert_table_control(db_file: str, search_query: str, id_search: int, table_name: str) -> None:
+    def insert_table_control(db_file: str, search_query: list, doi: str, table_name: str) -> None:
         """Insere valores de contrele na tabela, caso não exista tabela, cria a tabela e insere
 
         Args:            
@@ -33,11 +33,28 @@ class SQLite3Helper:
         create = f"CREATE TABLE IF NOT EXISTS {Constants.db_table_control()} (id INTEGER PRIMARY KEY AUTOINCREMENT, search_query varchar, id_search int, table_name varchar);"
         con.execute(create)
 
-        search_q = ','.join(search_query)
-        insert = f"insert into {Constants.db_table_control()} (search_query, id_search, table_name) values ({search_q}, {id_search}, {table_name})"
-        con.execute(insert)
-
+        for search in search_query:
+            insert = f"insert into {Constants.db_table_control()} (search_query, doi_search, table_name) values ('{search}', '{doi}', '{table_name}')"
+            con.execute(insert)
+        
+        con.commit()
         con.close()
+
+    @staticmethod
+    def construct_agregate_query(search_query: list):
+        # MONTA BUSCA
+        sqlSearch = ""
+        size = list.__len__(search_query)
+        cont = 0
+
+        for search in search_query:
+            cont += 1
+            nt = str(search).replace("(", "").replace(")","").replace("'","").replace(",","")
+            sqlSearch += f"'{nt}'"
+            if cont < size:
+                sqlSearch += ","
+        # FIM MONTA BUSCA
+        return sqlSearch
 
     @staticmethod
     def check_table_control(db_file: str, search_query: list, table_name: str):
@@ -50,15 +67,31 @@ class SQLite3Helper:
         """
         print(f"Criando tabela controle no database {db_file}")
         con = sqlite3.connect(db_file)
-        create = f"CREATE TABLE IF NOT EXISTS {Constants.db_table_control()} (id INTEGER PRIMARY KEY AUTOINCREMENT, search_query varchar, id_search int, table_name varchar);"
+        create = f"CREATE TABLE IF NOT EXISTS {Constants.db_table_control()} (id INTEGER PRIMARY KEY AUTOINCREMENT, search_query varchar, doi_search varchar, table_name varchar);"
         con.execute(create)
 
-        search_q = ','.join(search_query)
-        busca = f"select * from {Constants.db_table_control()} where search_query = {search_q} and table_name = {table_name})"
+        sqlsearch = SQLite3Helper.construct_agregate_query(search_query)
+        busca = f"select doi_search from {Constants.db_table_control()} where search_query in ({sqlsearch}) and table_name = '{table_name}'"
         query = con.execute(busca)
+        return query.fetchall()
+
+    @staticmethod
+    def insert_all_to_table(df: pd.DataFrame, db_file: str, table_name: str) -> None:
+        """Cria a tabela em database utilizando um DataFrame Pandas
+
+        Args:
+            df (pd.DataFrame): DataFrame Pandas que será fixado na tabela
+            db_file (str): Database que que receberá a tabela
+            table_name (str): Nome da tabela que será criada ou substituida
+        """
+        print(f"Criando tabela {table_name} no database {db_file}")
+        df = df.applymap(str)
+        con = sqlite3.connect(db_file)
+
+        df.to_sql(table_name, con, if_exists="append", index=False)
+        print("Dados Inseridos")
 
         con.close()
-        return query.fetchall()
 
     @staticmethod
     def create_table(df: pd.DataFrame, db_file: str, table_name: str) -> None:
