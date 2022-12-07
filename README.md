@@ -9,4 +9,8 @@ Libs necessárias:
 
 ## Projeto de API Local
 
-Instruções para rodar a API
+# Instruções para rodar a API
+No terminal, digite
+```uvicorn python_api:app --reload ```
+Para ver as rotas:
+- /docs#
