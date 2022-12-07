@@ -5,6 +5,25 @@ import re
 
 
 class BibtexHelper():
+    @staticmethod
+    def read_bibtex_file(path_file: str) -> pd.DataFrame:
+        """Faz a leitura do arquivo .bib da pasta solicitada.
+
+        Args:
+            path_files (str): recebe uma string com o
+            path dos arquivos que serão lidos.
+
+        Returns:
+            pd.DataFrame: Retorna o DataFrame de todos os
+            arquivos concatenados.
+        """
+        df_main = pd.DataFrame()
+        with open(path_file, encoding='utf8') as bibtex_file:
+            bib_database = bibtexparser.load(bibtex_file)
+            df = pd.DataFrame(bib_database.entries)
+            df_main = pd.concat([df_main, df])
+
+        return df_main
 
     @staticmethod
     def read_bibtex_files(path_files: str) -> pd.DataFrame:
@@ -26,7 +45,7 @@ class BibtexHelper():
             with open(
                     f"{path_files}/{file}",
                     encoding='utf8'
-                    ) as bibtex_file:
+            ) as bibtex_file:
                 bib_database = bibtexparser.load(bibtex_file)
 
                 df = pd.DataFrame(bib_database.entries)

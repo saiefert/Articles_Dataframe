@@ -6,3 +6,7 @@ Libs necessárias:
 - PyYAML
 - Bibtexparser
 - Pandas
+
+## Projeto de API Local
+
+Instruções para rodar a API
